@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Decodificador e codificador</title>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/responsiveness.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+
+<body>
+    <main class="main-container">
+        <header class="cabecalho">
+            <img class="logo" src="img/logo.svg" alt="Logo Alura ONE">
+            <h1>1° Alura Decodificador de Texto</h1>
+        </header>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Informe o seu texto aqui..."></textarea>
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div id="output">
+                <img src="img/imagem-principal.svg" alt="Ilustração de um personagem com cabelo e blusa azul usando uma lupa para olhar um diamante">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <span>Digite o texto que você deseja criptografar ou descriptografar.</span>
+            </div>
+            
+        </div> 
+        
+        <div class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">criptogragfar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptogragfar</button>
+            </div>
+        </div>
+    </main> 
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://github.com/Crystyanno"<ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/crystyanno-souza/"<ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://www.instagram.com/crystyanno/"<ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+            <p>Alura Challenge ONE</p>
+            <h3>Desenvolvido por Crystyanno Souza &copy; 2023</h3>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script  type="module"  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script  nomodule  src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>   
+</head>	
+</html>
